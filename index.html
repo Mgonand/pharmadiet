@@ -1177,6 +1177,21 @@ Traumatología</h3>
 	});
 </script>
 
+<script>
+	$(document).ready(function () {
+		setTimeout(function(){
+			navigator.notification.beep(2);
+			navigator.notification.alert(
+				'You are the winner!',  // message
+				function(){
+					
+				},         // callback
+				'Game Over',            // title
+				'Done'                  // buttonName
+			);
+		}, 2000);
+	});
+</script>
 
 
 
