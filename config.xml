@@ -1,15 +1,24 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.BinParTeam.Pharmadiet" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.binpar.pharmadiet"
+    versionCode = "10" 
+    version     = "1.0.1" >
+
+    <!-- versionCode is optional and Android only -->
+
     <name>Pharmadiet</name>
+
     <description>
         Pharmadiet app.
     </description>
+
     <author email="marcos@binpar.com" href="http://www.binpar.com">
         BinPar Team S.L
     </author>
-    <content src="index.html" />
-    <access origin="*" />
-	<gap:plugin name="org.apache.cordova.file" version="1.0.1" />
+
+    <!-- We'll include the Barcode plugin as an example -->
+    <gap:plugin name="org.apache.cordova.file" version="1.0.1" />
 	<gap:plugin name="org.apache.cordova.file-transfer" version="0.4.2" />
 	<gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
 	<gap:plugin name="org.apache.cordova.vibration" version="0.3.7" />
