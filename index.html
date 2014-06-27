@@ -1,0 +1,1189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <title>Catálogo - Pharmadiet</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+
+    <!-- Binpar css -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="top">
+
+    <!-- Small modal -->
+    <button class="btn btn-primary button butSelect" data-toggle="modal" data-target=".bs-example-modal-sm">Seleccionar y solicitar Obras</button>
+
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        
+        <div class="modal-content">
+          <form id="form_to_send">
+            <fieldset>
+            <legend>Solicitud de obras</legend>
+              <input type="text" id="form_comercial" placeholder="Comercial" >
+              <input type="email" id="form_email" placeholder="Dirección de Email" >
+              <textarea placeholder="Notas" id="form_notas" ></textarea>
+              <label><input type="checkbox" value="Cirugía Ortopédica y Traumatología" >Cirugía Ortopédica y Traumatología</label>          
+              <label><input type="checkbox" value="Resonancia Magnética del Sistema Musculoesquelético" >Resonancia Magnética del Sistema Musculoesquelético</label>          
+              <label><input type="checkbox" value="Resonancia magnética musculoesquelética" >Resonancia magnética musculoesquelética</label>          
+              <label><input type="checkbox" value="Colección Prometheus Texto y Atlas de Anatomía-(3 tomos)" >Colección Prometheus Texto y Atlas de Anatomía-(3 tomos)</label>          
+              <label><input type="checkbox" value="Manual de Cirugía Ortopédica y Traumatología Tomo-1" >Manual de Cirugía Ortopédica y Traumatología Tomo-1</label>          
+              <label><input type="checkbox" value="Manual de Cirugía Ortopédica y Traumatología Tomo-2" >Manual de Cirugía Ortopédica y Traumatología Tomo-2</label>
+            </fieldset>          
+          
+            <button class="btn btn-primary button full" type="submit">Enviar</button>
+
+          </form>
+        
+        </div>
+      </div>
+    </div>
+
+
+    <div class="navbar navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=""><img src="img/logos/logotipo.png" title="Pharmadiet" alt="Pharmadiet" ></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#item1" title="Cirugía Ortopédica y Traumatología" >Cirugía Ortopédica y Traumatología</a></li>
+            <li><a href="#item2" title="Resonancia Magnética ​
+del Sistema ​
+Musculoesquelético" >Resonancia Magnética ​
+del Sistema ​
+Musculoesquelético</a></li>
+            <li><a href="#item3" title="Resonancia ​
+Magnética ​
+Musculoesquelética" >Resonancia ​
+Magnética ​
+Musculoesquelética</a></li>
+            <li><a href="#item4" title="Colección Prometheus ​
+Texto y Atlas de Anatomía ​
+(3 tomos)" >Colección Prometheus ​
+Texto y Atlas de Anatomía ​
+(3 tomos)</a></li>
+            <li><a href="#item5" title="Curso Universitario de ​
+Lesiones Musculares ​
+en el Deporte" >Curso Universitario de ​
+Lesiones Musculares ​
+en el Deporte</a></li>
+            <li><a href="#item6" title="Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior" >Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior</a></li>
+          </ul>
+
+          <!--  <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form> -->
+        
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="navbarparent" class="col-sm-3 col-md-2 sidebar">
+          
+        <span class="titCatalogo" >Selección de obras</span>
+
+          <ul class="nav nav-sidebar">
+
+            <li class="active">
+              <a href="#item1" title="" >
+                <figure>
+                  <img src="img/thumbs/cirugiaOrtopedicaTraumatologia.jpg" title="Cirugía Ortopédica y Traumatología" alt="Cirugía Ortopédica y Traumatología" >
+                <figcaption>Cirugía Ortopédica y Traumatología</figcaption>
+                </figure>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#item2" title="" >
+                <figure>
+                  <img src="img/thumbs/resonanciaMagneticaDelSistemaMusculoesqueletico.jpg" title="Resonancia Magnética ​
+del Sistema ​
+Musculoesquelético" alt="Resonancia Magnética ​
+del Sistema ​
+Musculoesquelético" >
+                <figcaption>Resonancia Magnética ​
+del Sistema ​
+Musculoesquelético</figcaption>
+                </figure>
+              </a>
+            </li>
+
+            <li>
+              <a href="#item3" title="" >
+                <figure>
+                  <img src="img/thumbs/resonanciaMagneticaMusculoesqueletico.jpg" title="Resonancia ​
+Magnética ​
+Musculoesquelética" alt="Resonancia ​
+Magnética ​
+Musculoesquelética" >
+                <figcaption>Resonancia ​
+Magnética ​
+Musculoesquelética</figcaption>
+                </figure>
+              </a>
+            </li>
+
+            <li>
+              <a href="#item4" title="" >
+                <figure>
+                  <img src="img/thumbs/coleccionPrometheus.jpg" title="Colección Prometheus ​
+Texto y Atlas de Anatomía ​
+(3 tomos)" alt="Colección Prometheus ​
+Texto y Atlas de Anatomía ​
+(3 tomos)" >
+                <figcaption>Colección Prometheus ​
+Texto y Atlas de Anatomía ​
+(3 tomos)</figcaption>
+                </figure>
+              </a>
+            </li>
+
+            <li>
+              <a href="#item5" title="" >
+                <figure>
+                  <img src="img/thumbs/cursoLesionesMuscularesDeporte.jpg" title="Curso Universitario de ​
+Lesiones Musculares ​
+en el Deporte" alt="Curso Universitario de ​
+Lesiones Musculares ​
+en el Deporte" >
+                <figcaption>Curso Universitario de ​
+Lesiones Musculares ​
+en el Deporte</figcaption>
+                </figure>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#item6" title="" >
+                <figure>
+                  <img src="img/thumbs/anatomiaQuirurgica.jpg" title="Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior" alt="Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior" >
+                <figcaption>Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior</figcaption>
+                </figure>
+              </a>
+            </li>
+
+          </ul>
+
+
+        </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main even"> <!-- Cirugía ​
+Ortopédica y ​
+Traumatología -->
+
+          <div id="item1" class="row"> 
+            
+            <div class="col-xs-12 col-sm-4 placeholder">
+              <img class="img-responsive" alt="200x200" src="img/booksCover/CirugiaOrtopedicayTraumatologia.jpg">
+            </div>
+
+            <div class="col-xs-12 col-sm-8 placeholder">
+        
+              <h1><span>Alberto D. Delgado Martínez</span> Cirugía Ortopédica y Traumatología</h1>
+              <p class="blueBullet" >El texto clave, (dirigido a especialistas, no a estudiantes de medicina), para preparar oposiciones, para ayudar a preparar la prueba final de la especialidad para los que acaban de terminarla residencia en COT, y para especialistas que están muy dedicados a un área específica de la especialidad y que quieren repasar de forma rápida otras áreas de COT, o bien realizar un repaso completo rápido.</p>
+              <p class="blueBullet" >En esta segunda edición, de fácil lectura, se han actualizado todos los temas, se han añadido textos destacados en los que se resalta lo esencial del capítulo, además de marcar lo más relevante.</p>
+            
+        <h2 class="bookDetails" >Detalles de la obra</h2>
+              <ul class="features" >
+                <li><strong>Título</strong>: Cirugía Ortopédica y Traumatología</li>
+                <li><strong>Autor</strong>: Alberto D. Delgado Martínez</li>
+                <li><strong>EAN</strong>: 9788498355703</li>
+                <li><strong>Edición</strong>: 2ª</li>
+                <li><strong>Especialidad</strong>: Ortopedia y​
+ Traumatología</li>
+                <li><strong>Páginas</strong>: 888</li>
+                <li><strong>Encuadernación</strong>: Rústica</li>
+                <li><strong>Medidas</strong>: 21cm x 28cm</li>
+              </ul>
+
+            </div>
+          
+          </div>
+
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              <p>Llega la segunda edición de Cirugía Ortopédica y Traumatología, una obra que se ha convertido en poco tiempo en uno de los principales textos de referencia de la especialidad, con tres objetivos básicos: </p>
+              <ul class="contentList" >
+                <li>Ayudar en la formación teórica durante el periodo de residencia en COT y en la preparación de la prueba final.</li>
+                <li>Proporcionar la información necesaria para preparar las oposiciones a médicos especialistas en COT en el sistema sanitario público.</li>
+                <li>Ofrecer una herramienta para especialistas senior que están muy dedicados a un área específica de la especialidad, y que quieren repasar de forma rápida otras áreas de COT.</li>
+              </ul>
+
+              <p>Este libro presenta un repaso exhaustivo de toda la especialidad, resalta lo importante de lo secundario y prima la claridad y la concisión:</p>
+
+              <ul class="contentList" >
+          <li>En esta segunda edición todos los temas han sido actualizados y revisados por especialistas de alto nivel nacional e internacional.</li>
+          <li>Se ha profundizado más en su espíritu principal, que es docente. Para ello, se han añadido textos destacados en los que se resalta lo esencial del capítulo, además de marcar lo más relevante en negrita.</li>
+        </ul>
+      </div>
+          </div>
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              
+        <h2>Índice de Contenidos</h2>
+        <h3>Cirugía Ortopédica y ​
+Traumatología</h3>
+        
+        <dl>
+          
+          <dt>Sección I. Síndromes generales</dt>
+            <dd>Capítulo 2. Heridas. Mordeduras. Lesiones por onda explosiva</dd>
+            <dd>Capítulo 3. Síndrome de aplastamiento. Embolia grasa y embolia gaseosa</dd>
+            <dd>Capítulo 4. Lesiones producidas por temperatura, electricidad y radiaciones</dd>
+            <dd>Capítulo 5. Infecciones en el aparato locomotor. Generalidades</dd>
+            <dd>Capítulo 6. Amputaciones. Reimplantes. Prótesis y ortesis</dd>
+            <dd>Capítulo 7. El politraumatizado. Control de daños</dd>
+        
+          <dt>Sección II. Procedimientos auxiliares de diagnóstico y tratamiento</dt>
+            <dd>Capítulo 8. Procedimientos auxiliares de diagnóstico en patología del aparato locomotor</dd>
+            <dd>Capítulo 9. La rehabilitación en los diferentes procesos del aparato locomotor</dd>
+            <dd>Capítulo 10. Anestesia en la cirugía del aparato locomotor​</dd>
+
+          <dt>Sección III. Patología ósea</dt>
+            <dd>Capítulo 11. Fisiología del tejido óseo. Necrosis óseas y síndromes afines</dd>
+            <dd>Capítulo 12. Fracturas: Concepto, proceso de consolidación. Injertos y sustitutos óseos</dd>
+            <dd>Capítulo 13. Fracturas: Tratamiento y complicaciones</dd>
+            <dd>Capítulo 14. Fracturas en el niño</dd>
+            <dd>Capítulo 15. Infecciones óseas</dd>
+            <dd>Capítulo 16. Patología ósea metabólica</dd>
+            <dd>Capítulo 17. Displasias óseas. Enfermedad de Paget</dd>
+            <dd>Capítulo 18. Tumores óseos y lesiones pseudotumorales</dd>
+
+
+          <dt>Sección IV. Patología articular</dt>
+            <dd>Capítulo 19. Anatomofisiología de las articulaciones. Traumatismos articulares. Rigideces y anquilosis</dd>
+            <dd>Capítulo 20. Cuerpos libres articulares. Artropatías hemofílica y neuropática</dd>
+            <dd>Capítulo 21. Infecciones articulares</dd>
+            <dd>Capítulo 22. Artropatías inflamatorias</dd>
+            <dd>Capítulo 23. Artrosis. Generalidades</dd>
+            <dd>Capítulo 24. Biomateriales en cirugía ortopédica y traumatología</dd>
+
+          <dt>Sección V. Patología musculotendinosa</dt>
+            <dd>Capítulo 25. Fisiopatología muscular​</dd>
+            <dd>Capítulo 26. Fisiopatología de los tendones</dd>
+
+          <dt>Sección VI. Patología del sistema nervioso periférico</dt>
+            <dd>Capítulo 27. Fisiopatología del sistema nervioso periférico</dd>
+        
+          <dt>Sección VII. Patología vascular periférica</dt>
+            <dd>Capítulo 28. Hemorragia y hemostasia. Trombosis venosa profunda</dd>
+
+          <dt>Sección VIII. Traumatismos de otros órganos y sistemas</dt>
+            <dd>Capítulo 29. Traumatismos craneoencefálicos y faciales​</dd>
+            <dd>Capítulo 30. Traumatismos torácicos y abdominales</dd>
+
+          <dt>Sección IX. Cintura escapular y hombro</dt>
+            <dd>Capítulo 31. Anatomofisiología del hombro</dd>
+            <dd>Capítulo 32. Lesiones del plexo braquial</dd>
+            <dd>Capítulo 33. Malformaciones congénitas de la clavícula y la escápula. Tortícolis congénita</dd>
+            <dd>Capítulo 34. Hombro doloroso</dd>
+            <dd>Capítulo 35. Hombro reumático. Reconstrucción del hombro</dd>
+            <dd>Capítulo 36. Fracturas de la clavícula y la escápula</dd>
+            <dd>Capítulo 37. Inestabilidad escapulohumeral</dd>
+            <dd>Capítulo 38. Fracturas de la extremidad proximal del húmero</dd>
+            <dd>Capítulo 39. Fracturas de la diáfisis humeral</dd>        
+
+          <dt>Sección IX. Cintura escapular y hombro</dt>
+            <dd>Capítulo 31. Anatomofisiología del hombro</dd>
+            <dd>Capítulo 32. Lesiones del plexo braquial</dd>
+            <dd>Capítulo 33. Malformaciones congénitas de la clavícula y la escápula. Tortícolis congénita</dd>
+            <dd>Capítulo 34. Hombro doloroso</dd>
+            <dd>Capítulo 35. Hombro reumático. Reconstrucción del hombro</dd>
+            <dd>Capítulo 36. Fracturas de la clavícula y la escápula</dd>
+            <dd>Capítulo 37. Inestabilidad escapulohumeral</dd>
+            <dd>Capítulo 38. Fracturas de la extremidad proximal del húmero</dd>
+            <dd>Capítulo 39. Fracturas de la diáfisis humeral</dd>        
+
+          <dt>Sección X. Codo y antebrazo</dt>
+            <dd>Capítulo 40. El codo. Patología no traumática</dd>
+            <dd>Capítulo 41. Fracturas de la extremidad distal del húmero</dd>
+            <dd>Capítulo 42. Luxaciones del codo. Fracturas de la cabeza del radio y olécranon</dd>
+            <dd>Capítulo 43. Fracturas diafisarias del cúbito y radio</dd>
+
+          <dt>Sección XI. Muñeca​</dt>
+            <dd>Capítulo 44. Fracturas de la extremidad distal del cúbito y radio</dd>
+            <dd>Capítulo 45. Fracturas y luxaciones de los huesos del carpo. Inestabilidades carpianas</dd>
+            <dd>Capítulo 46. La muñeca dolorosa. Reumatismos de la muñeca y mano.</dd>        
+            <dd>Capítulo 47. Anatomía funcional de la mano. Malformaciones congénitas</dd>
+            <dd>Capítulo 48. Lesiones tendinosas de los dedos. Enfermedad de Dupuytren</dd>
+            <dd>Capítulo 49. Fracturas y luxaciones de la mano. Infecciones. Tumores</dd>
+
+          <dt>Sección XII. Mano​</dt>
+            <dd>Capítulo 47. Anatomía funcional de la mano. Malformaciones congénitas</dd>
+            <dd>Capítulo 48. Lesiones tendinosas de los dedos. Enfermedad de Dupuytren</dd>
+            <dd>Capítulo 49. Fracturas y luxaciones de la mano. Infecciones. Tumore</dd>
+          
+          <dt>Sección XIII. Cadera y pelvis​</dt>
+            <dd>Capítulo 50. Marcha normal y patológica. Anatomofisiología de la cadera</dd>
+            <dd>Capítulo 51. Displasia del desarrollo de la cadera. Malformaciones congénitas de la cadera</dd>
+            <dd>Capítulo 52. Cadera dolorosa en el niño</dd>
+            <dd>Capítulo 53. Necrosis avascular de la cabeza femoral del adulto. Patología de partes blandas</dd>
+            <dd>Capítulo 54. Patología degenerativa de la cadera. Artroplastia de cadera</dd>
+            <dd>Capítulo 55. Fracturas de la pelvis y del acetábulo. Luxaciones de cadera</dd>
+            <dd>Capítulo 56. Fracturas de la extremidad proximal del fémur</dd>
+            <dd>Capítulo 57. Fracturas subtrocantéreas y diafisarias del fémur</dd>       
+
+          <dt>Sección XIV. Rodilla​</dt>
+            <dd>Capítulo 58. Anatomofisiología de la rodilla</dd>
+            <dd>Capítulo 59. Fracturas de la extremidad distal del fémur y rótula</dd>
+            <dd>Capítulo 60. Fracturas de la extremidad proximal de la tibia y el peroné. Luxaciones de rodilla</dd>
+            <dd>Capítulo 61. Lesiones de los ligamentos y meniscos de la rodilla</dd>
+            <dd>Capítulo 62. Dolor femororrotuliano. Patología del aparato extensor de la rodilla</dd>
+            <dd>Capítulo 63. Otros síndromes dolorosos de la rodilla</dd>
+            <dd>Capítulo 64. Patología degenerativa de la rodilla. Artroplastia de rodilla</dd>
+            <dd>Capítulo 65. Artritis infecciosas de la rodilla. Malformaciones congénitas</dd>
+            <dd>Capítulo 66. Fracturas diafisarias de tibia y peroné</dd>
+
+          <dt>Sección XV. Tobillo y pie</dt>
+            <dd>Capítulo 67. Anatomía y biomecánica del tobillo. Traumatismos del tobillo</dd>
+            <dd>Capítulo 68. Anatomía y biomecánica del pie. Malformaciones congénitas y anomalías del desarrollo</dd>
+            <dd>Capítulo 69. Fracturas y luxaciones de los huesos del pie</dd>
+            <dd>Capítulo 70. Lesiones de los tendones aquíleo, peroneos y tibiales. Síndromes compartimentales del pie</dd>
+            <dd>Capítulo 71. Pie y tobillo reumático. Deformidades adquiridas del antepié</dd>
+            <dd>Capítulo 72. Síndromes dolorosos del pie. Pie diabético</dd>
+
+          <dt>Sección XVI. General</dt>
+            <dd>Capítulo 73. Dismetrías (Anisomelia). Deformidades torsionales y angulares del miembro inferior</dd>
+
+          <dt>Sección XVII. Anatomía y biomecánica</dt>
+            <dd>Capítulo 74. Anatomía funcional y biomecánica del raquis</dd>
+        
+          <dt>Sección XVIII. Traumatismos y deformidades</dt>
+            <dd>Capítulo 75. Traumatismos vertebrales. Lesiones medulares</dd>
+            <dd>Capítulo 76. Malformaciones congénitas del raquis</dd>
+            <dd>Capítulo 77. Deformidades del raqui</dd>    
+
+          <dt>Sección XIX. Dolor no traumático</dt>
+            <dd>Capítulo 78. Cervicobraquialgias. Síndromes neurovasculares cervicotorácicos</dd>
+            <dd>Capítulo 79. Síndrome doloroso lumbar y lumbociático</dd>
+            <dd>Capítulo 80. Infecciones de la columna vertebral. Tumores raquimedulares</dd>
+
+        </dl>
+      
+      </div>
+
+    </div>
+
+  </div> <!-- end Cirugía ​
+Ortopédica y ​
+Traumatología -->
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main odd"> <!-- Resonancia Magnética del Sistema Musculoesquelético -->
+
+          <div id="item2" class="row"> 
+            
+            <div class="col-xs-12 col-sm-4 placeholder">
+              <img class="img-responsive" alt="200x200" src="img/booksCover/ResonanciaMagneticadelSistemaMusculoesqueletico.jpg">
+            </div>
+
+            <div class="col-xs-12 col-sm-8 placeholder">
+        
+              <h1><span>Torsten B. Möller, Emil Reif</span> Resonancia Magnética del Sistema Musculoesquelético</h1>
+
+                <p class="blueBullet" >Una referencia obligada para los profesionales dedicados al diagnóstico y el tratamiento de las enfermedades que afectan al aparato locomotor.</p>
+                <p class="blueBullet" >Proporciona los fundamentos para establecer un diagnóstico racional, obtener la mejor calidad en las imágenes y analizar los hallazgos considerando los posibles diagnósticos diferenciales.</p>
+                <p class="blueBullet" >El diseño gráfico y la estructura didáctica del texto facilitan la interpretación de los detalles de mayor importancia y ofrecen la máxima utilidad para la práctica clínica.</p>
+                <p class="blueBullet" >En cada capítulo el lector encontrará: protocolos para la realización de la RM, anatomía normal en las imágenes de RM, hallazgos patológicos y posterapéuticos, posibilidades de error en la interpretación de las imágenes, valor clínico de la RM y comparación con otros procedimientos de diagnóstico por la imagen.</p>
+                <p class="blueBullet" >Esta nueva edición, con más de 1600 ilustraciones de alta calidad, incluye todas las innovaciones referentes a los aspectos técnicos y metodológicos de la RM.</p>
+
+              <h2 class="bookDetails" >Detalles de la obra</h2>
+                <ul class="features" >
+                  <li><strong>Título</strong>: Resonancia magnética musculoesquelética</li>
+                  <li><strong>Autores</strong>: Martin Vahlensieck / Maximilian Reiser</li>
+                  <li><strong>EAN</strong>: 9788498352047</li>
+                  <li><strong>Edición</strong>: 3ª</li>
+                  <li><strong>Especialidad</strong>: Radiología</li>
+                  <li><strong>Páginas</strong>: 640</li>
+                  <li><strong>Encuadernación</strong>: Cartoné</li>
+                  <li><strong>Medidas</strong>: 22cm x 29cm</li>
+                </ul>
+
+            </div>
+          
+          </div>
+
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              
+              <p>Una de las indicaciones más importantes de la resonancia magnética (RM), además del estudio de las enfermedades del SNC, son las anormalidades del esqueleto y de las partes blandas. Este libro proporciona los fundamentos para establecer un diagnóstico racional, obtener la mejor calidad en las imágenes y analizar los hallazgos considerando los posibles diagnósticos diferenciales. El diseño gráfico y la estructura didáctica del texto facilitan la interpretación de los detalles de mayor importancia y ofrecen la máxima utilidad para la práctica clínica.</p>
+              <p>En cada capítulo el lector encontrará:</p>
+              
+              <ul class="contentList" >
+                <li>Protocolos para la realización de la RM.</li>
+                <li> Anatomía normal en las imágenes de RM.</li>
+                <li>Hallazgos patológicos y posterapéuticos.</li>
+                <li>Posibilidades de error en la interpretación de las imágenes.</li>
+                <li>Valor clínico de la RM y comparación con otros procedimientos de diagnóstico por la imagen.</li>
+              </ul>
+
+              <p>Esta nueva edición ha sido revisada y actualizada e incluye todas las innovaciones referentes a los aspectos técnicos y metodológicos de la RM. Sus páginas contienen alrededor de 1600 ilustraciones de alta calidad, que responden a todos los interrogantes sobre la RM del aparato locomotor y hacen de esta obra una referencia obligada para los profesionales dedicados al diagnóstico y el tratamiento de las enfermedades que lo afectan.</p>
+
+      </div>
+          </div>
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              
+        <h2>Índice de Contenidos</h2>
+        <h3>Cirugía Ortopédica y ​
+Traumatología</h3>
+        
+        <dl>
+          
+          <dt>1 Técnicas relevantes de RM</dt>
+          <dt>2 Columna vertebral</dt>
+          <dt>3 Hombro</dt>
+          <dt>4 Codos</dt>
+          <dt>5 Articulación de la mano</dt>
+          <dt>6 Región de la cadera</dt>
+          <dt>7 Articulación de la rodilla</dt>
+          <dt>8 Articulación del tobillo y pie, incluyendo borde anterior de la tibia</dt>
+          <dt>9 Articulación temporomandibular</dt>
+          <dt>10 Musculatura</dt>
+          <dt>11 Médula ósea</dt>
+          <dt>12 Tumores óseos y de partes blandas</dt>
+          <dt>13 Osteoporosis</dt>
+          <dt>14 Articulación sacroilíaca (digresión: patrón inflamatorio raquídeo de las enfermedades reumáticas)</dt>
+          <dt>15 Maxilares y aparato de sostén de los dientes</dt>
+          <dt>16 Apéndice</dt>
+
+
+        </dl>
+      
+      
+      </div>
+    </div>
+
+  </div> <!-- end Cirugía ​
+Ortopédica y ​
+Traumatología -->
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main even"> <!-- Resonancia magnética musculoesquelética -->
+
+          <div id="item3" class="row"> 
+            
+            <div class="col-xs-12 col-sm-4 placeholder">
+              <img class="img-responsive" alt="200x200" src="img/booksCover/ResonanciaMagneticaMusculoesqueletica.jpg">
+            </div>
+
+            <div class="col-xs-12 col-sm-8 placeholder">
+        
+              <h1><span>Martin Vahlensieck, Maximilian Reiser</span> Resonancia magnética musculoesquelética</h1>
+
+                <p class="blueBullet" >La Resonancia Magnética Musculoesquelética coloreada y explicada para que no lo vea todo negro</p>
+                <p class="blueBullet" >Primera edición del que será toda una referencia en RM musculoesquelética del prestigiosos radiólogo alemán Torsten B. Möller. Un atlas definitivo en esta parte de la radiología.</p>
+                <p class="blueBullet" >Corte a corte, imagen a imagen con su homólogo dibujado, coloreado y con leyenda numerada para entender la imagen desde la anatomía más precisa.</p>
+                <p class="blueBullet" >Imágenes de Resonancia de alta calidad desde Dillinger (Alemania) una de las cunas de la anatomía moderna mundial.</p>
+                <p class="blueBullet" >Una confluencia de conocimientos única podemos disfrutar en esta obra emblemática</p>
+                <p class="blueBullet" >Dirigido a radiólogos tanto residentes como expertos como libro de fondo básico. Especialmente recomendado a traumatólogos residentes para entender una de las herramientas de diagnóstico más habituales en su especialidad</p>
+              
+
+              <h2 class="bookDetails" >Detalles de la obra</h2>
+                <ul class="features" >
+                  <li><strong>Título</strong>: Resonancia Magnética del Sistema Musculoesquelético</li>
+                  <li><strong>Autores</strong>: Torsten B. Möller / Emil Reif</li>
+                  <li><strong>EAN</strong>: 9788498353693</li>
+                  <li><strong>Especialidad</strong>: Radiología</li>
+                  <li><strong>Páginas</strong>: 290</li>
+                  <li><strong>Encuadernación</strong>: Rústica</li>
+                  <li><strong>Medidas</strong>: 21cm x 28cm</li>
+                </ul>
+
+            </div>
+          
+          </div>
+
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              
+            <p>El estudio de los cortes anatómicos normales del sistema musculoesquelético constituye la base indispensable para el diagnóstico de las distintas enfermedades de las articulaciones, las partes blandas, los huesos y la columna vertebral y, Resonancia Magnética del Sistema Musculoesquelético, Atlas con correlación anatómica, con sus imágenes e ilustraciones de alta calidad, presenta la información necesaria para ello.</p>
+            <p>Entre sus características destacadas se encuentran:</p>        
+
+              <ul class="contentList" >
+                <li>Más de 700 figuras a todo color, con ilustraciones cuidadosamente diseñadas por los propios autores, que ofrecen precisión y exactitud</li>
+                <li>Resonancias magnéticas de calidad superior, producidas con equipos actuales de alto rendimiento.</li>
+                <li>Imágenes de cortes transversales, fundamentales para el reconocimiento de las estructuras que se extienden más allá de las articulaciones</li>
+                <li>Diagramas sobre la localización y la dirección de cada corte para una orientación rápida.</li>
+                <li>Empleo de la terminología oficial en el rotulado de las ilustraciones y de un código uniforme de colores que facilita la identificación de las estructuras.</li>
+              </ul>
+
+              <p>Una obra práctica que brindará al lector un sólido conocimiento de la anatomía topográfica, imprescindible para diferenciar entre condiciones normales y patológicas. Sin lugar a dudas, una referencia invaluable para la actividad diaria de profesionales y residentes de Diagnóstico por Imágenes y técnicos radiólogos.</p>
+
+      </div>
+          </div>
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              
+        <h2>Índice de Contenidos</h2>
+        <h3>Cirugía Ortopédica y ​
+Traumatología</h3>
+        
+        <dl>
+          
+          <dt>Cuerpo</dt>
+            <dd>Articulación temporomandibular</dd>
+            <dd>Articulación temporomandibular, coronal</dd>
+            <dd>Articulación temporomandibular, sagital</dd>
+        
+          <dt>Columna</dt>
+            <dd>Columna, sagital Columna cervical, sagital</dd>
+            <dd>Columna cervical, coronal</dd>
+            <dd>Columna cervical, axial</dd>
+            <dd>Columna torácica, sagital</dd> 
+            <dd>Columna torácica, coronal</dd> 
+            <dd>Columna torácica, axial</dd>
+            <dd>Columna lumbar, sagital</dd> 
+            <dd>Columna lumbar, coronal</dd> 
+            <dd>Columna lumbar, axial</dd>
+            <dd>Sacro</dd>
+          
+          <dt>Miembro superior</dt>
+            <dd>Brazo, axial</dd> 
+            <dd>Hombro, coronal </dd>
+            <dd>Hombro, sagital</dd> 
+            <dd>Codo, coronal</dd> 
+            <dd>Codo, sagital</dd> 
+            <dd>Mano, coronal</dd> 
+            <dd>Mano, sagital</dd> 
+        
+          <dt>Miembro inferior</dt>
+            <dd>Pierna, axial</dd>
+            <dd>Cadera, coronal</dd> 
+            <dd>Cadera, sagital</dd>
+            <dd>Rodilla, coronal</dd>
+            <dd>Rodilla, sagital</dd>
+            <dd>Pie, coronal</dd>
+            <dd>Pie, sagital</dd>
+
+          <dt>Índice analítico</dt>
+
+        </dl>
+      
+      
+      </div>
+    </div>
+
+  </div> <!-- end Resonancia magnética musculoesquelética -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main odd"> <!-- Colección Prometheus. Texto y Atlas de Anatomía. (3 Tomos) -->
+
+          <div id="item4" class="row"> 
+            
+            <div class="col-xs-12 col-sm-4 placeholder">
+              <img class="img-responsive" alt="200x200" src="img/booksCover/ColeccionPrometheusTextoyAtlasdeAnatomia.jpg">
+            </div>
+
+            <div class="col-xs-12 col-sm-8 placeholder">
+        
+              <h1><span>Michael Schünke, Erik Schulte, Udo Schumacher</span> Colección Prometheus. Texto y Atlas de Anatomía. (3 Tomos)</h1>
+
+                <p class="blueBullet" >Una de las obras más ambiciosas de los últimos años en la literatura Médica.</p>
+                <p class="blueBullet" >PROMETHEUS, Texto y Atlas de Anatomía en tres tomos, ha pasado con éxito su primer examen práctico. Esta 2ª edición seguirá cumpliendo plenamente las exigencias de sus lectores.</p>
+                <p class="blueBullet" >Las imágenes, de gran calidad artística y científica, reproducen con fidelidad preparaciones anatómicas reales, a veces abarcando una página completa para mostrar los detalles que demanda el estudio de esta disciplina.</p>
+                <p class="blueBullet" >Los contenidos anatómicos se enriquecen con un enfoque multidisciplinario que combina imágenes y comentarios clínicos y embriológicos, pruebas funcionales, tablas de resumen y esquemas conceptuales, que le dan un carácter práctico y muestran el fundamento de los procedimientos clínicos y quirúrgicos.</p>
+                <p class="blueBullet" >PROMETHEUS acentúa más que nunca la interrelación de la Anatomía con otras asignaturas de la medicina y da respuesta a la demanda de una mayor correlación clínica en los nuevos planes de estudio. Responde así a las exigencias curriculares, facilita el aprendizaje y mantiene viva la fascinación por esta ciencia, que será siempre la base de toda actuación médica.</p>
+              
+
+              <h2 class="bookDetails" >Detalles de la obra</h2>
+                <ul class="features" >
+                  <li><strong>Título</strong>: Colección Prometheus. Texto y Atlas de Anatomía.</li>
+                  <li><strong>Autores</strong>: Michael Schünke, Erik Schulte, Udo Schumacher</li>
+                  <li><strong>EAN</strong>: 9788498353839</li>
+                  <li><strong>Edición</strong>: 2ª</li>
+                  <li><strong>Especialidad</strong>: Anatomía</li>
+                  <li><strong>Páginas</strong>: 1672</li>
+                  <li><strong>Encuadernación</strong>: Cartoné</li>
+                  <li><strong>Medidas</strong>: 24cm x 30cm</li>
+                </ul>
+
+            </div>
+          
+          </div>
+
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              
+              <p>PROMETHEUS, Texto y Atlas de Anatomía en tres tomos, ha pasado con éxito su primer examen práctico. Esta 2ª edición de una de las obras más ambiciosas de los últimos años seguirá cumpliendo plenamente las exigencias de sus lectores. Las imágenes -de gran calidad artística y científica- reproducen con fidelidad preparaciones anatómicas reales, a veces abarcando una página completa para mostrar los detalles que demanda el estudio de esta disciplina. Los contenidos anatómicos se enriquecen con un enfoque multidisciplinario que combina imágenes y comentarios clínicos y embriológicos, pruebas funcionales, tablas de resumen y esquemas conceptuales, que le dan un carácter práctico y muestran el fundamento de los procedimientos clínicos y quirúrgicos.</p>       
+              <p>PROMETHEUS acentúa más que nunca la interrelación de la Anatomía con otras asignaturas de la medicina y da respuesta a la demanda de una mayor correlación clínica en los nuevos planes de estudio. Responde así a las exigencias curriculares, facilita el aprendizaje y mantiene viva la fascinación por esta ciencia, que será siempre la base de toda actuación médica.</p>
+
+
+      </div>
+          </div>
+
+
+  </div> <!-- end Colección Prometheus. Texto y Atlas de Anatomía. (3 Tomos) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main even"> <!-- Curso Universitario de Lesiones Musculares en el Deporte -->
+
+          <div id="item5" class="row"> 
+            
+            <div class="col-xs-12 col-sm-4 placeholder">
+              <img class="img-responsive" alt="200x200" src="img/booksCover/lesionesMuscularesEnElDeporte.jpg">
+            </div>
+
+            <div class="col-xs-12 col-sm-8 placeholder">
+        
+              <h1><span>Ramon Balius Matas, Carles Pedret Carballido</span> Curso Universitario de Lesiones Musculares en el Deporte</h1>
+
+                <p class="blueBullet" >Ninguna lesión o enfermedad pertenece a una única especialidad o ciencia médica. Por esta causa hemos contado muy especialmente con anatomistas, radiólogos y fisioterapeutas. Consideramos básico el conocimiento de estas tres disciplinas en el abordaje de la lesión muscular.​</p>
+                <p class="blueBullet" >Los capítulos confeccionados incluyen desde las ciencias básicas -anatomía, biomecánica, reparación muscular- hasta las lesiones específicas por músculos -tríceps sural, recto anterior, isquiosurales, aductores-. También existen capítulos dedicados al manejo de la lesión muscular desde los más variados puntos de vista -equilibrio lumbo-pélvico-femoral, farmacología, cirugía- y a las entidades musculares específicas -hernia muscular, miositis osificante, dolor postesfuerzo-. De igual manera se han intentado unificar criterios radiológicos, clínicos, histológicos, anatómicos y de fisioterapia en el capítulo de clasificación de la lesión muscular, que aporta nuevos conceptos y una nueva visión a este controvertido tema.​</p>
+                <p class="blueBullet" >En los capítulos dedicados a las lesiones musculares específicas hemos trabajado de forma coordinada médicos del deporte junto a fisioterapeutas. Este hecho aporta una visión poco frecuente en los pocos libros que existen hasta la fecha sobre este tema y es que, además de la descripción y explicación de las diferentes lesiones específicas, se aporta también la pauta de tratamiento de fisioterapia a realizar en[…]</p>
+
+              
+
+              <h2 class="bookDetails" >Detalles de la obra</h2>
+                <ul class="features" >
+                  <li><strong>Título</strong>: Curso Universitario de Lesiones Musculares en el Deporte</li>
+                  <li><strong>Autores</strong>: Ramon Balius Matas, Carles Pedret Carballido</li>
+                  <li><strong>Páginas</strong>: 50</li>
+                  <li><strong>Número de horas oficiales</strong>: 50</li>
+                  <li><strong>Acreditado por</strong>: Universitat de Barcelona, Instituto de Formación Continua</li>
+                </ul>
+
+            </div>
+          
+          </div>
+
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              
+            <p>Dado que el contenido del libro se encuentra reconocido y acreditado por la Universidad de Barcelona, la superación de la evaluación final supondrá la obtención de un título universitario de posgrado de la Universidad de Barcelona acreditado con 50 horas oficiales.</p>
+            <p>Este título está convalidado a nivel universitario y profesional en toda la Unión Europea, y cuenta con el máximo reconocimiento profesional en toda América Latina. Asimismo, te permitirá acreditar tu formación en oposiciones, bolsas de trabajo y carrera profesional en cualquier Comunidad Autónoma española.</p>
+            <p>Título: Curso Universitario de Lesiones Musculares en el Deporte.</p>
+            <p>Nº Horas Oficiales: 50</p>
+            <p>Válido para Oposiciones, Carrera profesional y Bolsas de Trabajo.</p>
+            <p>El alumno recibirá el libro en papel en su domicilio en un máximo de tres días después de formalizar la matrícula online.</p>
+            <p>Asimismo, al día siguiente de haber formalizado la matrícula, recibirá las claves de acceso a la plataforma de formación online, en la que podrá realizar el examen de autoevaluación.</p>
+            <p>Este examen constará de 30 preguntas de tipo test con cuatro respuestas posibles. El alumno dispondrá de dos minutos para contestar cada pregunta. Por cada tres respuestas incorrectas, se restará la puntuación correspondiente a una respuesta</p>
+            <p>correcta. Se aprobará con una nota de 5 puntos (sobre un máximo de 10).</p>
+            <p>La superación de este examen supondrá la obtención del título oficial, que recibirá online ese mismo día.</p>
+            <p>La matrícula en este curso incluye tres elementos:</p>
+            <p>Un libro en papel, que el alumno recibirá en su domicilio tres días después de matricularse. Podrá estudiar en papel: este libro contiene la totalidad del temario de la actividad formativa, y su contenido es el objeto de estudio del curso.</p>
+            <p>Un examen online. El alumno recibirá en su correo electrónico las claves de acceso a nuestra plataforma online. Allí, cuando haya estudiado el contenido del libro, podrá evaluar sus conocimientos realizando un test de 30 preguntas.</p>
+            <p>Un título universitario. Una vez aprobado el examen online, se le remitirá en formato pdf su título universitario.</p>
+
+      </div>
+          </div>
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              
+        <h2>Índice de Contenidos</h2>
+        <h3>Curso Universitario de Lesiones Musculares en el Deporte</h3>
+        
+        <dl>
+
+          <dt>SECCIÓN 1</dt>
+            <dd>1) Histoarquitectura del tejido muscular. Musculoesquelético</dd>
+            <dd>2) Histoarquitectura del tejido muscular. Elementos conjuntivo, nervioso y vascular</dd>
+            <dd>3) Biomecánica de la lesión muscular</dd>
+            <dd>4) Clasificación de las lesiones musculares</dd>
+            <dd>5) Valoración clínica y exploración de las lesiones musculares</dd>
+            <dd>6) Diagnóstico por la imagen de las lesiones musculotendinosas</dd>
+            <dd>7) Farmacología en el tratamiento de las lesiones musculares</dd>
+            <dd>8) Principios de reparación muscular</dd>
+            <dd>9) Abordaje de la recuperación de la lesión muscular</dd>
+            <dd>10) Complejo lumbopelvifemoral (Core)</dd>
+            <dd>11) Readaptación al esfuerzo después de una lesión muscular</dd>
+            <dd>12) Concepto de vuelta a la competición y de relesión</dd>
+            <dd>13) Prevención de la lesión muscular</dd>
+            <dd>14) Tratamiento quirúrgico de las lesiones musculares</dd>
+
+          <dt>SECCIÓN 2</dt>
+            <dd>15) Fatiga, un síntoma destinado a la protección</dd>
+            <dd>16) Mialgia posterior al esfuerzo</dd>
+            <dd>17) Hernia muscular</dd>
+            <dd>18) Contusión muscular</dd>
+            <dd>19) Miositis osificante</dd>
+            <dd>20) Derrame de Morel-Lavallée</dd>
+            <dd>21) Síndromes compartimentales agudo y dinámico.</dd>
+          
+          <dt>SECCIÓN 3</dt>
+            <dd>22) Lesiones del tríceps sural</dd>
+            <dd>23) Lesión del recto femoral</dd>
+            <dd>24) Lesión de los isquiosurales</dd>
+            <dd>25) Lesión de los aductores</dd>
+            <dd>26) Lesión del tensor de la fascia lata</dd>
+            <dd>27) Lesiones de la pared abdominal</dd>
+            <dd>28) Lesiones musculares de la extremidad superior</dd>
+
+        </dl>
+      
+      
+      </div>
+    </div>
+  
+</div> <!-- end Curso Universitario de Lesiones Musculares en el Deporte -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main even"> <!-- Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior -->
+
+          <div id="item6" class="row"> 
+            
+            <div class="col-xs-12 col-sm-4 placeholder">
+              <img class="img-responsive" alt="200x200" src="img/booksCover/AnatomiaQuirurgicaDelPlexoBraquialNerviosPeriféricosExtremidadSuperior.jpg">
+            </div>
+
+            <div class="col-xs-12 col-sm-8 placeholder">
+        
+              <h1><span>Manuel Llusá Pérez, Santos Palazzi Coll, Antonio Valer Tito</span> Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior</h1>
+
+                <p class="blueBullet" >Se examinan los fundamentos anatómicos a partir de experiencias e interrogantes planteados en consultas hospitalarias</p>
+                <p class="blueBullet" >Incluye sitio web en el que se recopilan casos clínicos reales aportados por cirujanos con experiencia en el tema</p>
+                <p class="blueBullet" >Dirigido a estudiantes, médicos residentes de esta especialidad y profesionales sanitarios con afinidad al tema e interés a esta área del aparato locomotor</p>
+                <p class="blueBullet" >En cada capítulo se ha añadido un apartado sobre las vías de abordaje para exponer los diferentes elementos nerviosos y cómo acceder a cada región.</p>
+                <p class="blueBullet" >Abarca desde la constitución básica de los nervios periféricos, pasando por las bases de la exploración y el diagnóstico neurológico, hasta aspectos quirúrgicos actuales</p>
+
+              
+              <h2 class="bookDetails" >Detalles de la obra</h2>
+                <ul class="features" >
+                  <li><strong>Título</strong>: Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior</li>
+                  <li><strong>Autores</strong>: Manuel Llusá Pérez, Santos Palazzi Coll, Antonio Valer Tito</li>
+                  <li><strong>EAN</strong>: 9788498356106</li>
+                  <li><strong>Especialidad</strong>: Ortopedia y Traumatología</li>
+                  <li><strong>Páginas</strong>: 404</li>
+                  <li><strong>Encuadernación</strong>: Cartoné</li>
+                  <li><strong>Medidas</strong>: 21cm x 28cm</li>
+                </ul>
+
+            </div>
+          
+          </div>
+
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              
+            <p>Hay pocas afecciones en la extremidad superior que sean más devastadoras que la lesión de su sistema nervioso. La presente obra destaca para un cirujano reconstructor, que los fundamentos para el conocimiento de este sistema, ya tenga una base plástica, ortopédica o neuroquirúrgica, se inician con una comprensión de la anatomía y de cómo abordar quirúrgicamente estructuras nerviosas en cualquier punto de la extremidad superior.</p>
+            <p>Esta premisa, “todo comienza con la anatomía”, se refleja en su cuidadosa selección, delicada realización y soberbia fotografía de especímenes anatómicos criopreservados.</p>
+            <p>Entre las características distintivas de esa obra se puede destacar:</p>
+
+              <ul class="contentList" >
+                <li>Aborda temas de interés clinicoquirúrgico cubriendo de forma sistemática las características anatomoquirúrgicas del plexo braquial y de los nervios periféricos de la extremidad superior.</li>
+                <li>Aborda temas de interés clinicoquirúrgico cubriendo de forma sistemática las características anatomoquirúrgicas del plexo braquial y de los nervios periféricos de la extremidad superior.</li>
+                <li>Revisa el trayecto anatómico general, los puntos motores y las características anatómicas intraneurales.</li>
+                <li>Describe la exploración clínica con los aspectos motores, sensitivos y vegetativos correspondientes, tanto en condiciones normales como en situaciones patológicas con imágenes de los signos clínicos más característicos.</li>
+                <li>En cada capítulo se ha añadido un apartado sobre las vías de abordaje para exponer los diferentes elementos nerviosos y cómo acceder a cada región.</li>
+                <li>Incluye un sitio web que permite acceder a una recopilación de casos clínicos reales, aportados por cirujanos con experiencia en el tema, así como a vídeos donde se visualiza de forma dinámica los abordajes del plexo braquial y de los nervios periféricos de la extremidad superior.</li>
+              </ul>
+            
+            <p>Este libro pretende acercar la anatomía quirúrgica más relevante del plexo braquial y de los nervios periféricos de la extremidad superior a las personas que no siempre pueden tener acceso directo a una sala de disección, como estudiantes, médicos residentes de esta especialidad y profesionales sanitarios con afinidad al tema e interés en éste área del aparato locomotor. Asimismo, los autores exponen su amplia experiencia personal en la práctica clínicoquirúrgica diaria en la evaluación y diagnóstico de la patología que afecta al plexo braquial y los nervios periféricos de la extremidad superior.</p>
+
+      </div>
+          </div>
+
+          <div class="row borderTop">
+            <div class="container-fluid" >
+              
+        <h2>Índice de Contenidos</h2>
+        <h3>Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior</h3>
+        
+        <p>Prólogo I, XI</p>
+        <p>Prólogo II, XII</p>
+        <p>Prefacio, XV</p>
+        <p>Agradecimientos, XVII</p>
+        <p>Material complementario en el sitio web, X</p>
+        <p>Terminología anatómica y abreviaturas, XXI</p>
+
+        <dl>
+
+          <dt>SECCIÓN I. Fundamentos y aspectos generales en el estudio del plexo braquial y nervios periféricos</dt>
+            <dd>1 Introducción: Anatomía clínica del sistema nervioso periférico</dd>
+            <dd>2. Constitución básica del nervio periférico</dd>
+            <dd>3. Fundamentos de la exploración neurológica del nervio periférico. Signos positivos y negativos</dd>
+            <dd>4. Diagnóstico clínico</dd>
+
+          <dt>SECCIÓN II Anatomía quirúrgica y vías de abordaje</dt>
+            <dd>5. Plexo braquial supraclavicular. Ramos colaterales</dd>
+            <dd>6. Plexo braquial infraclavicular. Ramos colaterales y terminales</dd>
+            <dd>7. Nervio espinal o accesorio</dd>
+            <dd>8. Nervio supraescapular</dd>
+            <dd>9. Nervio axilar</dd>
+            <dd>10. Transferencias nerviosas para las lesiones de los nervios supraescapular y axilar</dd>
+            <dd>11. Nervio radial</dd>
+            <dd>12. Nervio musculocutáneo</dd>
+            <dd>13. Transferencias nerviosas para las lesiones del nervio musculocutáneo</dd>
+            <dd>14. Nervio mediano</dd>
+            <dd>15. Transferencias nerviosas de los nervios mediano y radial en el codo</dd>
+            <dd>16. Nervio cubital</dd>
+            <dd>17. Nervios cutáneo medial del brazo y cutáneo medial del antebrazo</dd>
+            <dd>18. Transferencias nerviosas de utilidad en la mano y los dedos</dd>
+          
+          <dt>SECCIÓN III Estudios complementarios en las lesiones del plexo braquial y los nervios periféricos</dt>
+            <dd>19. Estudio de las neuropatías periféricas de la extremidad superior y del plexo braquial por resonancia magnética</dd>
+            <dd>20. Ecografía del nervio periférico</dd>
+            <dd>21. Fundamentos de los estudios electroneurofisiológicos</dd>
+            <dd>22. Aspectos anatomopatológicos y registros electroneuro fisiológicos peroperatorios. Forma y función</dd>
+            <dd>23. Evaluación de los parámetros electroneurográficos y electromiográficos y controles periféricos evolutivos</dd>
+
+          <dt>EPÍLOGO</dt>
+            <dd>24. Conocimiento anatómico y prevención de complicaciones y lesiones de los nervios periféricos</dd>
+
+        </dl>
+        
+        <p>Bibliografía general</p>
+        <p>Índice analítico</p>
+
+      </div>
+    </div>
+  
+</div> <!-- end Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main odd"> <!-- Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior -->
+
+          <div id="Div1" class="row"> 
+            
+
+            <div class="col-xs-12 col-sm-12 placeholder">
+        
+              <h1>Precios</h1>
+
+              <dl class="prices" >
+
+                <dt>Delgado, Cirugía Ortopédica y Traumatología:</dt>
+                  <dd><strong>Delegado</strong>: 63 € + IVA</dd>
+                  <dd><strong>PVP</strong>: 110 €</dd>
+
+                <dt>Möller, Rosonancia Magnética del Sistema Musculoesquelético:</dt>
+                  <dd><strong>Delegado</strong>: 63 € + IVA</dd>
+                  <dd><strong>PVP</strong>:  80 € + IVA</dd>
+
+                <dt>Vahlensieck, Resonancia magnética musculoesquelética:</dt>
+                  <dd><strong>Delegado</strong>: 93 € + IVA</dd>
+                  <dd><strong>PVP</strong>: 135 €</dd>
+
+                <dt>Prometheus, Colección Prometheus. Texto y Atlas de Anatomía:</dt>
+                  <dd><strong>Delegado</strong>: 160 € + IVA</dd>
+                  <dd><strong>PVP</strong>: 240 €</dd>
+
+                <dt>Curso Universitario de Lesiones Musculares en el Deporte:</dt>
+                  <dd><strong>Delegado</strong>: 114 € + IVA</dd>
+                  <dd><strong>PVP</strong>: 189 €</dd>
+                
+                <dt>Lluca, Manual y Atlas Fotográfico de Anatomía del Aparato Locomotor:</dt>
+                  <dd><strong>Delegado</strong>: PVP 43.75 € + IVA</dd>
+                  <dd><strong>PVP</strong>: 65 €</dd>
+
+              </dl>
+
+
+
+            </div>
+          
+          </div>
+
+  
+</div> <!-- end Anatomía Quirúrgica del plexo braquial y nervios periféricos de la extremidad superior -->
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="/js/docs.min.js"></script>-->
+
+<!--SCROOLANCHOR-->
+<script type="text/javascript">
+	$(document).ready(function () {
+
+		//$('body').attr('data-spy', 'scroll').attr('data-target', '#navbarparent').attr('data-offset', '10');
+
+		$("body").scrollspy({ target: "#navbarparent" });
+
+		$('a[href^="#"]').bind('click.smoothscroll', function (e) {
+			e.preventDefault();
+
+			var a = this;
+
+			var target = a.hash,
+			$target = $(target);
+
+			$('html, body').stop().animate({
+				'scrollTop': $target.offset().top - $('.navbar-fixed-top').outerHeight() - 40
+			}, 900, 'swing', function () {
+				window.location.hash = target;
+				$("ul.nav.nav-sidebar li.active").removeClass("active");
+				$(a).parent().addClass("active");
+			});
+		});
+	});
+</script>
+
+
+<!--SCROLLTOP-->
+<script>
+	$(document).ready(function () {
+
+		// hide #back-top first
+		$("#back-top").hide();
+
+		// fade in #back-top
+		$(function () {
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) {
+					$('#back-top').fadeIn();
+				} else {
+					$('#back-top').fadeOut();
+				}
+			});
+
+			// scroll body to 0px on click
+			$('#back-top a,.navbar-brand').click(function (e) {
+				e.preventDefault();
+
+				$('body,html').animate({
+					scrollTop: 0
+				}, 800);
+				return false;
+			});
+		});
+	});
+</script>
+
+<script>
+	$(document).ready(function () {
+		$("#form_to_send").off("submit").on("submit", function (e) {
+			e.preventDefault();
+
+			var obras = new Array();
+			$.each($("#form_to_send").find("input[type='checkbox']:checked"), function () {
+				obras.push($(this).val());
+			});
+
+			var Datos = {
+				comercial: $("#form_comercial").val(),
+				email: $("#form_email").val(),
+				notas: $("#form_notas").val(),
+				obras: obras
+			};
+			$.ajax({
+				type: "POST",
+				url: "http://www.medicapanamericana.com/ws/service.asmx/WorksRequest",
+				contentType: "application/json; charset=utf-8",
+				data: JSON.stringify(Datos),
+				success: function (data) {
+					$(".bs-example-modal-sm").modal("hide");
+					if (data.OK) {
+
+					}
+					else {
+						console.log(data.Message);
+					}
+				},
+				error: function () {
+					console.log("Error en la llamada AJAX ( http://www.medicapanamericana.com/ws/service.asmx )");
+				}
+			});
+		});
+	});
+</script>
+
+
+
+
+  <p id="back-top">
+    <a href=""><span></span>Volver arriba</a>
+  </p>
+
+
+  </body>
+</html>
